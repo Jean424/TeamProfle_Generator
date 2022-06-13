@@ -46,7 +46,7 @@ function init() {
     .catch((error) => console.log(error));
 }
 
-// Function call to initialize app ??
+// Function call to initialize app
 init();
 
 function askInternQuestions() {
@@ -70,8 +70,8 @@ function askInternQuestions() {
       },
       {
         type: "input",
-        name: "schoolName",
-        message: "What is the name of your Intern School?",
+        name: "schoolname",
+        message: "What is the name of your School?",
       },
     ])
     .then((answers) => {
@@ -82,7 +82,7 @@ function askInternQuestions() {
         answers.ID,
         answers.name,
         answers.email,
-        answers.schoolName
+        answers.schoolname
       );
       console.log("Intern Class obj ", newIntern);
       //add the information to the blank new array
@@ -90,6 +90,7 @@ function askInternQuestions() {
       init();
     });
 }
+
 function askEngineerQuestions() {
   console.log("Engineer questions");
   inquirer
