@@ -1,7 +1,7 @@
 # TeamProfle_Generator
 
 ## Project Description
-This is a command-line application to make the user get prompted for the required questions and have it succesfully get read file. 
+This is a command-line application to make the user get prompted for the required questions and have it succesfully get my team html page. 
 
 ## Table of Contents
 - [Installation](#installation)
